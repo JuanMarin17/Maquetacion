@@ -1,0 +1,149 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #24282b;
+  color: white;
+  font-size: 20px;
+  border-bottom: #198fc5 5px solid;
+}
+
+header ul {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  font-size: 16px;
+}
+
+header span {
+  color: #198fc5;
+}
+
+header ul li:hover {
+  color: #198fc5;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  background-color: #24282b;
+  color: white;
+  font-size: 20px;
+}
+
+nav .ingresar-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+nav .ingresar-email input {
+  width: 190px;
+  height: 30px;
+  border: none;
+  padding-left: 10px;
+}
+
+nav .ingresar-email input:focus {
+  outline: none;
+}
+
+nav .ingresar-email button {
+  background-color: #e84a1d;
+  color: white;
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+
+main {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 20px;
+  gap: 40px;
+}
+
+.info-principal {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.info-secundaria {
+  width: 25%;
+  background-color: #35424a;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.info-secundaria h5 {
+  font-size: 20px;
+}
+
+.servicios {
+  width: 100%;
+  height: auto;
+  background-color: #e6e6e6;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-principal h5 {
+  font-size: 20px;
+}
+
+.servicios p {
+  font-size: 14px;
+}
+
+.servicios h5 {
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #198fc5;
+}
