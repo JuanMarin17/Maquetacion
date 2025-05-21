@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    background-color: #24282b;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fcfbfb;
+    height:8vh;
+
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap:50px ;
+}
+
+header ul li:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+    color:#198fc5;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(images/cabecera.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fcfbfb;
+    height: 42vh;
+    border-top:2px solid #198fc5;
+    gap: 15px;
+}
+.title h1{
+    font-size: 70px;
+}
+.title p{
+    font-size: 20px;
+}
+.subscribe{
+    display: flex;
+    background-color: #24282b;
+    color: #fcfbfb ;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+
+.subscribe input[type=text]{
+    height: 30px;
+    width: 250px;
+}
+.subscribe button{
+    background-color: #e84b1d;
+    color: #fcfbfb;
+    border: none;
+    height:34px ;
+}
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+  gap: 20px; /* Espacio entre los elementos */
+  padding: 20px;
+  margin: 20px;
+}
+
+.html, .css, .bush {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  border: 1px solid;
+  flex: 1 0 200px; /* Crece, no se reduce, tamaño base de 200px */
+  min-width: 150px; /* Evita que los elementos se reduzcan demasiado */
+  height: 200px;
+}
+
+.html h1, .css h1, .bush h1 {
+  font-size: 22px;
+}
+
+.html img, .css img, .bush img {
+  width: 100px;
+  height: 100px;
+}
+
+footer{
+    background-color: #198fc5;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fcfbfb;
+}
+
+
+
