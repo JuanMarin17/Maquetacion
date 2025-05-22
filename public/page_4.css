@@ -189,3 +189,60 @@ footer {
     background-color: #198fc5;
     padding: 20px;
 }
+@media screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        font-size: 18px;
+    }
+    header ul {
+        gap: 10px;
+        font-size: 15px;
+    }
+    nav {
+        flex-direction: column;
+        padding: 15px;
+        height: auto;
+        font-size: 16px;
+        gap: 10px;
+    }
+    main {
+        flex-direction: column;
+        align-items: stretch;
+        height: auto;
+        gap: 20px;
+        padding: 10px;
+    }
+    .contact-box,
+    .secundary-box {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .box-pop {
+        padding: 10px;
+    }
+    .secundary-box img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header h3 {
+        font-size: 18px;
+    }
+    nav h4 {
+        font-size: 15px;
+    }
+    .contact input,
+    .contact textarea,
+    .contact button {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .box-pop h5,
+    h5 {
+        font-size: 14px;
+    }
+}
