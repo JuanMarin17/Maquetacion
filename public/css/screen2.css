@@ -39,8 +39,9 @@ header span {
   color: #198fc5;
 }
 
-header ul li:hover {
+header ul li a:hover {
   color: #198fc5;
+  text-decoration: underline;
 }
 
 nav {

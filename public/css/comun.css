@@ -1,0 +1,13 @@
+.active {
+  color: #198fc5;
+}
+
+.active:hover {
+  color: #198fc5;
+  text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
