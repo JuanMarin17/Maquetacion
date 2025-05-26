@@ -1,0 +1,160 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(36, 40, 43);
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  justify-content: space-around;
+  width: 10%;
+  text-align: center;
+}
+
+li {
+  color: white;
+  display: flex;
+  cursor: pointer;
+  text-align: center;
+}
+li:nth-child(2) {
+  color: rgb(21, 147, 210);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 4px solid rgba(27, 131, 185, 255);
+}
+
+header h1 {
+  color: white;
+  font-size: 25px;
+}
+
+header h1 span {
+  color: rgb(21, 147, 210);
+  font-size: 25px;
+}
+.container1 {
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 15%;
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+nav h1{
+    font-size: 15px;
+}
+
+.container1 {
+  font-size: 20px;
+  display: flex;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.container1 input {
+  height: 30px;
+  width: 250px;
+  background-color: white;
+}
+
+.container1 button {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: #e44d22;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin-right: 15%;
+}
+.container2 {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin-right: 10%;
+}
+
+.container2 h2,
+p {
+  background-color: white;
+  width: 55%;
+  padding-top: 20px;
+  margin-left: 10%;
+}
+.container3 {
+  background-color: white;
+  text-align: center;
+  width: 65%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3%;
+}
+
+.container3 p {
+  background-color: rgb(53, 66, 74);
+  width: auto;
+  height: auto;
+  color: white;
+  margin-top: -50px;
+}
+
+.img {
+  width: 80%;
+  height: 37%;
+  background-color: white;
+  max-width: 100%; /* La imagen nunca será más grande que su contenedor */
+  height: auto;
+}
+
+.img img {
+  height: 90%;
+  width: 73%;
+  margin-right: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 12%;
+  position: relative;
+  top: -45px;
+  background-color: white;
+}
+
+.contenedor4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor4 .izquierda {
+  margin-right: auto;
+}
