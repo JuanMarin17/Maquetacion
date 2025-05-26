@@ -1,0 +1,248 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #24282b;
+    color: white;
+    font-size: 20px;
+    border-bottom: #198fc5 5px solid;
+    padding: 50px;
+}
+
+header ul {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-size: 16px;
+}
+
+header span {
+    color: #198fc5;
+}
+
+header ul li:hover {
+    color: #198fc5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #24282b;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+nav .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+
+}
+
+nav .email input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+}
+
+nav .email input:focus {
+    outline: none;
+}
+
+nav .email button {
+    background-color: #e84a1d;
+    color: white;
+    height: 30px;
+    border: none;
+    padding: 5px;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+    background-color: #e6e6e6;
+
+}
+
+.contact-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.contact {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.contact p {
+    margin: 0;
+    padding: 0;
+}
+
+.contact input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 15vh;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.contact button {
+    width: 100%;
+    background-color: #e84a1d;
+    color: white;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    margin: 8px 0px;
+}
+
+
+.secundary-box {
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box-pop {
+    width: 100%;
+    background-color: #35424a;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.box-pop h5 {
+    font-size: 17px;
+    margin: 14px 0px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #b33a15;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #198fc5;
+    padding: 20px;
+}
+@media screen and (max-width: 900px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        font-size: 18px;
+    }
+    header ul {
+        gap: 10px;
+        font-size: 15px;
+    }
+    nav {
+        flex-direction: column;
+        padding: 15px;
+        height: auto;
+        font-size: 16px;
+        gap: 10px;
+    }
+    main {
+        flex-direction: column;
+        align-items: stretch;
+        height: auto;
+        gap: 20px;
+        padding: 10px;
+    }
+    .contact-box,
+    .secundary-box {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .box-pop {
+        padding: 10px;
+    }
+    .secundary-box img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header h3 {
+        font-size: 18px;
+    }
+    nav h4 {
+        font-size: 15px;
+    }
+    .contact input,
+    .contact textarea,
+    .contact button {
+        font-size: 14px;
+        padding: 8px;
+    }
+    .box-pop h5,
+    h5 {
+        font-size: 14px;
+    }
+}
