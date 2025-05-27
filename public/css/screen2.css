@@ -84,6 +84,7 @@ nav .ingresar-email button {
 main {
   width: 100%;
   height: auto;
+  height: 70vh;
   display: flex;
   align-items: start;
   justify-content: center;
