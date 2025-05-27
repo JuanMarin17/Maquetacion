@@ -181,6 +181,9 @@ button:hover {
 a {
     color: white;
 }
+li span{
+    color:#198fc5
+}
 .contact input::placeholder,
 .contact textarea::placeholder,
 nav .email input::placeholder {
