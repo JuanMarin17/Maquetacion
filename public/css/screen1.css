@@ -1,11 +1,16 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    width: 100%;
-    height: 100%;
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
 header{
@@ -72,43 +77,46 @@ header ul li a:hover{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: 1px solid;
   flex-wrap: wrap; /* Permite que los elementos se envuelvan */
-  gap: 20px; /* Espacio entre los elementos */
-  padding: 20px;
-  margin: 20px;
+  height: 30vh;
+  width: 100%;
+  padding: 50px;
 }
 
-.html, .css, .bush {
+.item-skills {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 10px;
+  flex: 1 0 10px;
+  min-width: 250px;
+  max-width: 350px;
   border: 1px solid;
-  flex: 1 0 200px; /* Crece, no se reduce, tamaño base de 200px */
-  min-width: 150px; /* Evita que los elementos se reduzcan demasiado */
-  height: 200px;
+  height: auto;
+  gap: 10px;
+ 
 }
 
-.html h1, .css h1, .bush h1 {
+.item-skills h1{
   font-size: 22px;
 }
 
-.html img, .css img, .bush img {
+.item-skills img {
   width: 100px;
   height: 100px;
 }
 
-footer{
-    background-color: #198fc5;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fcfbfb;
+footer {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #198fc5;
 }
+
 
 
 
