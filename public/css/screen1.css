@@ -33,7 +33,7 @@ header ul li:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image:url(images/cabecera.jpg);
+    background-image:url(../images/cabecera.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,13 +100,15 @@ header ul li:hover{
   height: 100px;
 }
 
-footer{
-    background-color: #198fc5;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fcfbfb;
+footer{  
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #198fc5;
+
 }
 
 
