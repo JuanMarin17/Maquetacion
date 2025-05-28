@@ -174,7 +174,7 @@ h5 {
     font-size: 20px;
 }
 
-button:hover {
+.contact button:hover {
     cursor: pointer;
     background-color: #b33a15;
 }
@@ -209,7 +209,7 @@ footer {
 }
 @media screen and (max-width: 900px) {
     header {
-        flex-direction: column;
+        /* flex-direction: column; */
         padding: 20px;
         height: auto;
         font-size: 18px;
