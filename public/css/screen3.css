@@ -203,7 +203,17 @@ footer {
 
   .info-principal,
   .info-secundaria {
+<<<<<<< HEAD
+<<<<<<< HEAD
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+=======
     font-size: 20px;
+>>>>>>> feature/sprint1-Milo
+=======
+    font-size: 20px;
+>>>>>>> 7dee60ce70eb1475a8f170ab63695bb6207eaca7
   }
 
   .info-principal img {
