@@ -122,10 +122,10 @@ main {
   width: 100%;
   height: auto;
   background-color: #e6e6e6;
-  padding: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 .info-principal h5 {
@@ -133,7 +133,7 @@ main {
 }
 
 .servicios p {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .servicios h5 {
