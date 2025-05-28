@@ -150,6 +150,41 @@ footer {
   background-color: #198fc5;
 }
 
+@media screen and (max-width: 1900px) {
+  header h1 {
+    font-size: 5px;
+  }
+
+  header ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  main {
+    height: auto;
+    height: 70vh;
+  }
+
+  footer{
+    height: 10vh;
+  }
+
+  .servicios p{
+    font-size: 14px;
+  }
+
+  .servicios{
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .info-principal h5 {
+    font-size: 20px;
+  }
+  
+}
+
 @media screen and (max-width: 768px) {
   body {
     height: auto;
