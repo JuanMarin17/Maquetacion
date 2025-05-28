@@ -121,6 +121,20 @@ header ul li:hover {
   height: 100px;
 }
 
+@media screen and (max-width: 1450px) {
+  .title h1 {
+    font-size: 50px;
+  }
+
+  .title p {
+    font-size: 18px;
+  }
+
+  .title {
+    height: 36vh;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header {
     gap: 10px;
@@ -214,20 +228,6 @@ header ul li:hover {
   }
   .item-skills {
     min-width: 300px;
-  }
-}
-
-@media screen and (max-width: 1450px) {
-  .title h1 {
-    font-size: 50px;
-  }
-
-  .title p {
-    font-size: 18px;
-  }
-
-  .title {
-    height: 36vh;
   }
 }
 
