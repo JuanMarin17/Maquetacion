@@ -14,77 +14,76 @@ body {
   height: 100%;
 }
 
-header{
-    display: flex;
-    background-color: #24282b;
-    align-items: center;
-    justify-content: space-evenly;
-    color: #fcfbfb;
-    height:8vh;
-
+header {
+  display: flex;
+  background-color: #24282b;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fcfbfb;
+  height: 8vh;
 }
-header ul{
-    display: flex;
-    list-style-type: none;
-    gap:50px ;
-}
-
-header ul li:hover{
-    transform: scale(1.1);
-    transition: transform 0.5s;
-    color:#198fc5;
-}
-.title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image:url(../images/cabecera.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fcfbfb;
-    height: 42vh;
-    border-top:2px solid #198fc5;
-    gap: 15px;
-}
-.title h1{
-    font-size: 70px;
-}
-.title p{
-    font-size: 20px;
-}
-.subscribe{
-    display: flex;
-    background-color: #24282b;
-    color: #fcfbfb ;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 10vh;
-    width: 100vw;
+header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
 }
 
-.subscribe input[type=text]{
-    height: 30px;
-    width: 250px;
+header ul li:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  color: #198fc5;
 }
-.subscribe button{
-    background-color: #e84b1d;
-    color: #fcfbfb;
-    border: none;
-    height:34px ;
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/cabecera.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fcfbfb;
+  height: 42vh;
+  border-top: 2px solid #198fc5;
+  gap: 15px;
+}
+.title h1 {
+  font-size: 70px;
+}
+.title p {
+  font-size: 20px;
+}
+.subscribe {
+  display: flex;
+  background-color: #24282b;
+  color: #fcfbfb;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+}
+
+.subscribe input[type="text"] {
+  height: 30px;
+  width: 250px;
+}
+.subscribe button {
+  background-color: #e84b1d;
+  color: #fcfbfb;
+  border: none;
+  height: 34px;
 }
 
 .skills {
   display: flex;
-  justify-content: center;
   gap: 100px;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap; 
-  height: 30vh;
+  flex-wrap: wrap;
+  /* height: auto; */
+  min-height: 30vh;
   width: 100vw;
- padding: 15px 0px;
+  padding: 15px 0px;
 }
 
 .item-skills {
@@ -98,10 +97,9 @@ header ul li:hover{
   max-width: 300px;
   height: auto;
   gap: 10px;
- 
 }
 
-.item-skills h1{
+.item-skills h1 {
   font-size: 22px;
 }
 
@@ -109,51 +107,78 @@ header ul li:hover{
   width: 100px;
   height: 100px;
 }
-@media screen and (max-width:768px) {
-    header {
+@media screen and (max-width: 768px) {
+
+  header {
     gap: 10px;
     flex-direction: column;
     padding: 10px;
     height: auto;
     font-size: 16px;
   }
-   header ul {
+  header ul {
     flex-direction: column;
     gap: 10px;
   }
-  .title{
-    
+  .title {
     text-align: center;
   }
-  .title h1{
+  .title h1 {
     font-size: 40px;
   }
-  .title p{
+  .title p {
     font-size: 20px;
   }
-  .subscribe{
+  .subscribe {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
     padding: 5px;
   }
-  .subscribe input[type=text]{
+  .subscribe input[type="text"] {
     width: 100px;
     height: 30px;
   }
-  .subscribe h1{
+  .subscribe h1 {
     font-size: 20px;
   }
-  .subscribe button{
+  .subscribe button {
     width: 100px;
     height: 30px;
+  }
+  .skills {
+    height: 70%;
+  }
+
+  .item-skills {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 932px) {
+  header h1{
+    font-size: 16px;
+  }
+  header{
+    display: flex;
+    gap:7px;
   }
 
 }
-@media screen and (max-width:1025px) {
-      .skills{
+@media screen and (max-width: 912px) {
+  header h1 {
+    font-size: 18px;
+  }
+  header ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .skills {
     height: auto;
+  }
+  .item-skills {
+    min-width: 300px;
   }
 }
 
@@ -166,6 +191,3 @@ footer {
   align-items: center;
   color: #fcfbfb;
 }
-
-
-
