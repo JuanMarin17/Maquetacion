@@ -186,6 +186,7 @@ footer {
     height: auto;
     font-size: 16px;
     padding: 10px 0;
+    gap: 10px;
     text-align: center;
   }
   header ul {
@@ -202,13 +203,22 @@ footer {
 
   .info-principal,
   .info-secundaria {
+<<<<<<< HEAD
     width: 100%;
     padding: 10px;
     font-size: 16px;
+=======
+    font-size: 20px;
+>>>>>>> feature/sprint1-JuanMarin
   }
 
   .info-principal img {
     width: 100%;
     height: auto;
+  }
+
+  .info-secundaria{
+    width: 90%;
+    font-size: 15px;
   }
 }
