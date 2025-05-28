@@ -220,7 +220,7 @@ footer {
 
   .info-principal {
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
   }
 
   .info-secundaria {

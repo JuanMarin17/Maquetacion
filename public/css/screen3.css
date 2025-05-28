@@ -193,7 +193,6 @@ footer {
 
 @media (max-width: 600px) {
   header,
-  nav,
   footer {
     flex-direction: column;
     height: auto;
@@ -202,6 +201,13 @@ footer {
     gap: 10px;
     text-align: center;
   }
+
+  nav{
+    font-size: 16px;
+    flex-direction: column;
+    height: 12vh;
+  }
+
   header ul {
     flex-direction: column;
     gap: 10px;
@@ -216,18 +222,17 @@ footer {
 
   .info-principal,
   .info-secundaria {
-    width: 100%;
-    padding: 10px;
+    width: 95%;
+    /* padding: 10px; */
+    font-size: 20px;
+  }
+
+  .info-principal h5{
     font-size: 20px;
   }
 
   .info-principal img {
     width: 100%;
     height: auto;
-  }
-
-  .info-secundaria {
-    width: 90%;
-    font-size: 15px;
   }
 }
