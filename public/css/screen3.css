@@ -153,7 +153,20 @@ footer {
   background-color: #198fc5;
 }
 
-/* Responsive Design */
+@media screen and (max-width: 1900px) {
+  .mensaje1{
+    font-size: 18px;
+  }
+
+  .mensaje2{
+    font-size: 18px;
+  }
+
+  .info-secundaria{
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 1024px) {
   main {
     flex-direction: column;
@@ -203,17 +216,9 @@ footer {
 
   .info-principal,
   .info-secundaria {
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 100%;
     padding: 10px;
-    font-size: 16px;
-=======
     font-size: 20px;
->>>>>>> feature/sprint1-Milo
-=======
-    font-size: 20px;
->>>>>>> 7dee60ce70eb1475a8f170ab63695bb6207eaca7
   }
 
   .info-principal img {
