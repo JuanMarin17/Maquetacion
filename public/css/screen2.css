@@ -15,6 +15,7 @@ body {
 
 header {
   display: flex;
+  position: relative;
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -150,7 +151,19 @@ footer {
   background-color: #198fc5;
 }
 
+.btn-hamburguesa {
+  display: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
 @media screen and (max-width: 1900px) {
+
+  header {
+    justify-content: space-around;
+  }
+
   header h1 {
     font-size: 5px;
   }
@@ -220,7 +233,7 @@ footer {
 
   .info-principal {
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
   }
 
   .info-secundaria {
@@ -240,7 +253,6 @@ footer {
 
   header {
     gap: 10px;
-    flex-direction: column;
     padding: 10px;
     height: auto;
     font-size: 16px;
@@ -251,8 +263,25 @@ footer {
   }
 
   header ul {
+    width: 100%;
+    justify-content: start;
+    position: absolute;
+    top: 43px;
+    display: none;
+    left: 0;
+    background-color: #24282b;
     flex-direction: column;
+    padding: 15px;
     gap: 10px;
+  }
+
+  .btn-hamburguesa{
+    display: block;
+  }
+
+  header ul.active{
+    display: flex;
+    align-items: start;
   }
 
   nav {

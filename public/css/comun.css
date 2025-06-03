@@ -7,7 +7,62 @@
   text-decoration: none;
 }
 
-a{
-    text-decoration: none;
-    color: #ffff;
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+header {
+  position: relative;
+}
+
+header ul {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  gap: 20px;
+  font-size: 16px;
+}
+
+.btn-hamburguesa {
+  display: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 750px) {
+  header {
+    gap: 10px;
+    padding: 10px;
+    height: auto;
+    font-size: 16px;
+  }
+
+  header h3 {
+    font-size: 15px;
+  }
+
+  header ul {
+    width: 100%;
+    justify-content: start;
+    position: absolute;
+    top: 43px;
+    display: none;
+    left: 0;
+    background-color: #24282b;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+  }
+
+  .btn-hamburguesa {
+    display: block;
+  }
+
+  header ul.active {
+    display: flex;
+    align-items: start;
+  }
 }
