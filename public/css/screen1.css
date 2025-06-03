@@ -1,0 +1,207 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  background-color: #24282b;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #fcfbfb;
+  height: 8vh;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+  gap: 50px;
+}
+
+header ul li:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  color: #198fc5;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/cabecera.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fcfbfb;
+  height: 42vh;
+  border-top: 2px solid #198fc5;
+  gap: 15px;
+}
+.title h1 {
+  font-size: 70px;
+}
+.title p {
+  font-size: 20px;
+}
+.subscribe {
+  display: flex;
+  background-color: #24282b;
+  color: #fcfbfb;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+}
+
+.subscribe input[type="text"] {
+  height: 30px;
+  width: 250px;
+}
+.subscribe button {
+  background-color: #e84b1d;
+  color: #fcfbfb;
+  border: none;
+  height: 34px;
+}
+
+.skills {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* height: auto; */
+  min-height: 30vh;
+  width: 100%;
+  padding: 15px 0px;
+}
+
+.item-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 1 0;
+  min-width: 150px;
+  max-width: 300px;
+  height: auto;
+  gap: 10px;
+}
+
+.item-skills h1 {
+  font-size: 22px;
+}
+
+.item-skills img {
+  width: 100px;
+  height: 100px;
+}
+@media screen and (max-width: 768px) {
+
+  header {
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+    font-size: 16px;
+  }
+  header ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .title {
+    text-align: center;
+  }
+  .title h1 {
+    font-size: 40px;
+  }
+  .title p {
+    font-size: 20px;
+  }
+  .subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .subscribe input[type="text"] {
+    width: 100px;
+    height: 30px;
+  }
+  .subscribe h1 {
+    font-size: 20px;
+  }
+  .subscribe button {
+    width: 100px;
+    height: 30px;
+  }
+  .skills {
+    height: 70%;
+  }
+
+  .item-skills {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 932px) {
+  header h1{
+    font-size: 16px;
+  }
+  header{
+    display: flex;
+    gap:7px;
+  }
+
+}
+@media screen and (max-width: 912px) {
+  header h1 {
+    font-size: 18px;
+  }
+  header ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  .skills {
+    height: auto;
+  }
+  .item-skills {
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .title h1 {
+    font-size: 50px;
+  }
+
+  .title p {
+    font-size: 18px;
+  }
+
+  .title{
+    height: 36vh;
+  }
+}
+
+footer {
+  background-color: #198fc5;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fcfbfb;
+}
